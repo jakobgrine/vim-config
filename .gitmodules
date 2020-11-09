@@ -1,0 +1,6 @@
+[submodule "pack/bundle/start/gruvbox"]
+	path = pack/bundle/start/gruvbox
+	url = https://github.com/morhetz/gruvbox
+[submodule "pack/bundle/start/undotree"]
+	path = pack/bundle/start/undotree
+	url = https://github.com/mbbill/undotree

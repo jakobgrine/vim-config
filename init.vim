@@ -10,7 +10,6 @@ set wrap
 set smartcase
 set noswapfile
 set nobackup
-set undodir=~/.config/nvim/undodir
 set undofile
 set incsearch
 set nohlsearch

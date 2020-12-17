@@ -13,6 +13,7 @@ set nobackup
 set undofile
 set incsearch
 set nohlsearch
+set viminfo+=n~/.vim/viminfo
 
 colorscheme gruvbox
 set background=dark

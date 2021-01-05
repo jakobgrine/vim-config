@@ -7,3 +7,6 @@
 [submodule "pack/bundle/start/surround"]
 	path = pack/bundle/start/surround
 	url = https://tpope.io/vim/surround.git
+[submodule "pack/bundle/start/fzf"]
+	path = pack/bundle/start/fzf
+	url = https://github.com/junegunn/fzf

@@ -125,3 +125,6 @@ nnoremap <silent> <leader>u :UndotreeShow<CR>
 
 " Start FZF (junegunn/fzf)
 nnoremap <C-P> :FZF<CR>
+
+" Make vim-latex compile to pdf by default
+let g:Tex_DefaultTargetFormat='pdf'

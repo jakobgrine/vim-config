@@ -10,3 +10,6 @@
 [submodule "pack/bundle/start/fzf"]
 	path = pack/bundle/start/fzf
 	url = https://github.com/junegunn/fzf
+[submodule "pack/bundle/start/vim-latex"]
+	path = pack/bundle/start/vim-latex
+	url = https://github.com/vim-latex/vim-latex

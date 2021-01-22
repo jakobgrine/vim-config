@@ -7,7 +7,7 @@ filetype plugin on
 filetype indent on
 
 " Set leader for key chords
-let mapleader = " "
+let mapleader = ","
 
 " Shortcut for saving
 nmap <leader>w :w!<CR>

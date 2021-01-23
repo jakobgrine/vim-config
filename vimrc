@@ -20,7 +20,7 @@ command! W execute 'w !sudo tee % >/dev/null' <bar> edit!
 au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
 
 " Disable highlight when <leader><CR> is pressed
-map <silent> <leader><s> :noh<CR>
+map <silent> <leader>s :noh<CR>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => VIM user interface

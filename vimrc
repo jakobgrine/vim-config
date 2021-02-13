@@ -53,9 +53,16 @@ set novisualbell
 set t_vb=
 set tm=500
 
+" Hide toolbar, scrollbar and menubar in gvim
+set guioptions-=m
+set guioptions-=T
+set guioptions-=r
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Colors and fonts
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Set font in gvim
+set guifont=Consolas:h11
 " Enable syntax highlighting
 syntax enable
 
@@ -68,7 +75,7 @@ endtry
 " Use dark scheme variant
 set background=dark
 " Make background black instead of grey
-highlight Normal ctermbg=black
+highlight Normal ctermbg=black guibg=black
 
 " Set UTF-8 as standard encoding
 set encoding=utf8

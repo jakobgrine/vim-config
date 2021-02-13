@@ -91,14 +91,16 @@ set nobackup
 set nowb
 set noswapfile
 
+let runtimedir=split(&runtimepath, ",")[0]
+
 " Persistent undo
-if !isdirectory($HOME."/.vim")
-    call mkdir($HOME."/.vim", "", 0770)
+if !isdirectory(runtimedir)
+    call mkdir(runtimedir, "", 0770)
 endif
-if !isdirectory($HOME."/.vim/undodir")
-    call mkdir($HOME."/.vim/undodir", "", 0700)
+if !isdirectory(runtimedir."/undodir")
+    call mkdir(runtimedir."/undodir", "", 0700)
 endif
-set undodir=~/.vim/undodir
+let &undodir=runtimedir."/undodir"
 set undofile
 
 " Move viminfo file out of home directory

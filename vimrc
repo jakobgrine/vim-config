@@ -9,6 +9,7 @@ filetype indent on
 
 " Set leader for key chords
 let mapleader = ","
+let maplocalleader = ","
 
 " Shortcut for saving
 nmap <leader>w :w!<CR>

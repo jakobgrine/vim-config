@@ -139,3 +139,14 @@ nnoremap <C-P> :FZF<CR>
 
 " Disable vimtex opening a viewer
 let g:vimtex_view_enabled=0
+
+" Configure vimwiki
+let g:vimwiki_list = [{
+            \'path': '~/wiki/text',
+            \'path_html': '~/wiki/html',
+            \'template_path': '~/wiki/templates',
+            \'template_default': 'default',
+            \'template_ext': '.tpl',
+            \'auto_export': 1,
+            \'auto_toc': 1,
+            \}]

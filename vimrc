@@ -139,6 +139,11 @@ nnoremap <C-P> :FZF<CR>
 
 " Disable vimtex opening a viewer
 let g:vimtex_view_enabled=0
+" Disable hbox warnings
+let g:vimtex_quickfix_ignore_filters=[
+            \'Underfulle \\hbox',
+            \'Overfull \\hbox',
+            \]
 
 " Configure vimwiki
 let g:vimwiki_list = [{

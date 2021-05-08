@@ -147,9 +147,9 @@ let g:vimtex_quickfix_ignore_filters=[
 
 " Configure vimwiki
 let g:vimwiki_list = [{
-            \'path': '~/wiki/text',
-            \'path_html': '~/wiki/html',
-            \'template_path': '~/wiki/templates',
+            \'path': '~/Dropbox/wiki/text',
+            \'path_html': '~/Dropbox/wiki/html',
+            \'template_path': '~/Dropbox/wiki/templates',
             \'template_default': 'default',
             \'template_ext': '.tpl',
             \'auto_export': 1,

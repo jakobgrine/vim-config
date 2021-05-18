@@ -136,9 +136,6 @@ let g:netrw_http_cmd="firefox"
 " Show the undotree (mbbill/undotree)
 nnoremap <silent> <leader>u :UndotreeShow<CR>
 
-" Start FZF (junegunn/fzf)
-nnoremap <C-P> :FZF<CR>
-
 " Disable vimtex opening a viewer
 let g:vimtex_view_enabled=0
 " Disable hbox warnings

@@ -130,6 +130,8 @@ set wrap
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " No banner in netrw
 let g:netrw_banner=0
+" Make netrw use firefox to open URLs
+let g:netrw_http_cmd="firefox"
 
 " Show the undotree (mbbill/undotree)
 nnoremap <silent> <leader>u :UndotreeShow<CR>

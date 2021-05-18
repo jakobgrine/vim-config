@@ -146,7 +146,7 @@ let g:vimtex_quickfix_ignore_filters=[
             \]
 
 " Configure vimwiki
-let g:vimwiki_list = [{
+let g:vimwiki_list=[{
             \'path': '~/Dropbox/wiki/text',
             \'path_html': '~/Dropbox/wiki/html',
             \'template_path': '~/Dropbox/wiki/templates',
@@ -155,3 +155,5 @@ let g:vimwiki_list = [{
             \'auto_export': 1,
             \'auto_toc': 1,
             \}]
+" Localize vimwiki table of contents header
+let g:vimwiki_toc_header='Inhalt'

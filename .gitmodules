@@ -13,3 +13,6 @@
 [submodule "pack/bundle/start/vimwiki"]
 	path = pack/bundle/start/vimwiki
 	url = https://github.com/vimwiki/vimwiki
+[submodule "pack/bundle/start/vim-fugitive"]
+	path = pack/bundle/start/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive

@@ -60,6 +60,10 @@ set guioptions-=m
 set guioptions-=T
 set guioptions-=r
 
+" Always show statusline
+set laststatus=2
+set statusline=%<%F\ %m%r\ %y%=%-14.(%l,%c%V%)\ %{fugitive#statusline()}
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Colors and fonts
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""

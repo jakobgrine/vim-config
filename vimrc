@@ -11,9 +11,6 @@ filetype indent on
 let mapleader = ","
 let maplocalleader = ","
 
-" Shortcut for saving
-nmap <leader>w :w!<CR>
-
 " :W sudo saves the file
 " (useful for handling the permission-denied error)
 command! W execute 'w !sudo tee % >/dev/null' <bar> edit!
@@ -63,6 +60,9 @@ set guioptions-=r
 " Always show statusline
 set laststatus=2
 set statusline=%<%F\ %m%r\ %y%=%-14.(%l,%c%V%)\ %{fugitive#statusline()}
+
+" Show current command in bottom right corner
+set showcmd
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Colors and fonts

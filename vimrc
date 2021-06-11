@@ -73,11 +73,11 @@ set guifont=Consolas:h11
 syntax enable
 
 " Set color scheme
+set t_Co=256
 try
 	colorscheme gruvbox
 catch
 endtry
-
 " Use dark scheme variant
 set background=dark
 " Make background black instead of grey
